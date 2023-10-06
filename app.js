@@ -25,6 +25,17 @@ app.get('/hamilton', function(req, res){
     res.sendFile(path.join(__dirname,'/views/hamilton.html'))
     console.log(__dirname)
 })
+
+app.get('/hopper', function(req, res){
+    res.sendFile(path.join(__dirname,'/views/hamilton.html'))
+    console.log(__dirname)
+})
+
+app.get('/lovelace', function(req, res){
+    res.sendFile(path.join(__dirname,'/views/hamilton.html'))
+    console.log(__dirname)
+})
+
 app.listen(3030,()=>{
     console.log("Servidor en marcha!");
 })
